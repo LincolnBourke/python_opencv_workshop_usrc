@@ -2,7 +2,7 @@ import cv2
 import numpy as np 
 
 # open image and scale to reasonable size for viewing
-img = cv2.imread("Photos\space_image.jpg")
+img = cv2.imread("..\Photos\space_image.jpg")
 img = cv2.resize(img, (int(img.shape[1]*0.5), int(img.shape[0]*0.5)))
 cv2.imshow("Original image", img)
 
